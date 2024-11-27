@@ -25,7 +25,7 @@ import java.util.Locale;
  */
 public class SettingsFragment extends Fragment {
 
-    private @NonNull SettingsFragmentBinding binding; // Objeto de binding para acceder a la vista.
+    private SettingsFragmentBinding binding; // Objeto de binding para acceder a la vista.
 
 
     /**
