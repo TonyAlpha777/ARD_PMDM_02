@@ -39,7 +39,7 @@ public class SettingsFragment extends Fragment {
      * @return Vista raíz del fragmento.
      */
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = SettingsFragmentBinding.inflate(inflater, container, false);
         binding.languageRadioGroup.setOnCheckedChangeListener(this::onLenguageSelected);
         updateLanguageSelection(); // Actualiza los botones de idioma según las preferencias guardadas.
@@ -68,7 +68,7 @@ public class SettingsFragment extends Fragment {
         }
 
         //Configura los items del NavigationDrawer para el cambio de idioma
-        NavigationView navigationView = getActivity().findViewById(R.id.nav_view);
+        NavigationView navigationView = requireActivity().findViewById(R.id.nav_view);
         Menu menu = navigationView.getMenu();
         menu.findItem(R.id.nav_home).setTitle(getString(R.string.home_drawer));
         menu.findItem(R.id.nav_settings).setTitle(getString(R.string.settings_drawer));
