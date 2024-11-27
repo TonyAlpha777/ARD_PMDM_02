@@ -19,8 +19,7 @@ import com.google.android.material.navigation.NavigationView;
 import java.util.Locale;
 
 /**
- * Fragmento que gestiona la configuración de la aplicación.
- *
+ * Fragmento que gestiona la configuración de la aplicación. *
  * Este fragmento permite al usuario cambiar el idioma de la aplicación y actualiza dinámicamente
  * los textos y elementos de la interfaz para reflejar el cambio.
  */
@@ -48,8 +47,7 @@ public class SettingsFragment extends Fragment {
     }
 
     /**
-     * Actualiza los textos y elementos de la interfaz para reflejar el idioma seleccionado.
-     *
+     * Actualiza los textos y elementos de la interfaz para reflejar el idioma seleccionado.     *
      * Este método actualiza los textos de la pantalla actual, el título de la barra de herramientas
      * y los elementos del menú del NavigationView.
      */
@@ -118,8 +116,7 @@ public class SettingsFragment extends Fragment {
     }
 
     /**
-     * Cambia el idioma de la aplicación.
-     *
+     * Cambia el idioma de la aplicación.     *
      * Este método actualiza la configuración regional de la aplicación, guarda la preferencia
      * de idioma en las preferencias compartidas y recarga la interfaz para reflejar el cambio.
      *
