@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">ARD PMDM Tarea 2</string>
+    <string name="game_name">Personajes de SuperMario Bros</string>
+
+    <!-- String Toast del GameDetailFragment.java -->
+    <string name="toast_detailFragment">Se ha seleccionado el personaje :</string>
+    <!-- String Snackbar del GameListFragment.java -->
+    <string name="snackbar_listFragment">Bienvenido al Mundo de Super Mario Bros</string>
+
+    <!-- Strings del drawer_menu.xml -->
+    <string name="home_drawer">Inicio</string>
+    <string name="settings_drawer">Ajustes</string>
+    <string name="language_drawer">Idioma</string>
+
+
+    <!-- Strings del nav_header.xml -->
+    <string name="content_description">SUPER MARIO BROS</string>
+    <string name="username_navheader">Antonio Reyes de Dios</string>
+    <string name="subtitle_navheader">ARD PMDM Tarea 2</string>
+
+    <!-- Strings del profile_fragment.xml-->
+    <string name="profile">Perfil del Desarrollador</string>
+
+    <!-- Strings del settings_fragment.xml -->
+    <string name="language_textView">Lenguaje</string>
+    <string name="english_radioButton">Inglés</string>
+    <string name="spanish_radioButton">Español</string>
+
+    <!-- Para navigationDrawer-->
+    <string name="open_drawer">Abrir menú</string>
+    <string name="close_drawer">Cerrar menú</string>
+
+    <!-- Strings de GameDetailFragment -->
+    <string name="character_name">Nombre del Personaje</string>
+    <string name="character_description">Descripción breve del personaje</string>
+    <string name="character_ability">Habilidades del personaje</string>
+
+    <!-- Strings del main_menu.xml -->
+    <string name="title_context_menu">Acerca de...</string>
+
+    <!-- String del item del main_menu-->
+    <string name="about_main_menu">Aplicación desarrollada por Antonio Reyes de Dios versión 1.0</string>
+
+    <!-- String ActionBar de la ListFragment-->
+    <string name="title_actionbar_list_fragment">Lista de Personajes</string>
+
+    <!-- String ActionBar del DetailFragment-->
+    <string name="title_actionbar_detail_fragment">Detalle Personaje</string>
+
+    <!-- Strings del GameListFragment -->
+    <!-- Boo -->
+    <string name="name_boo_supermario">Boo</string>
+    <string name="description_boo_supermario">Un fantasma travieso que adora asustar, pero tímido frente a las miradas.</string>
+    <string name="skills_boo_supermario">Volverse invisible, atravesar paredes</string>
+
+    <!-- Bowser -->
+    <string name="name_bowser_supermario">Bowser</string>
+    <string name="description_bowser_supermario">El Rey de los Koopas, poderoso y decidido a secuestrar princesas.</string>
+    <string name="skills_bowser_supermario">Lanzar fuego, gran fuerza física</string>
+
+    <!-- Bowser Jr. -->
+    <string name="name_bowserjr_supermario">Bowser Jr.</string>
+    <string name="description_bowserjr_supermario">El hijo de Bowser, inteligente y dispuesto a ayudar a su padre.</string>
+    <string name="skills_bowserjr_supermario">Pintar con pincel mágico, usar vehículos mecánicos</string>
+
+    <!-- Diddy Kong -->
+    <string name="name_diddykong_supermario">Diddy Kong</string>
+    <string name="description_diddykong_supermario">Un mono ágil y astuto, siempre al lado de Donkey Kong.</string>
+    <string name="skills_diddykong_supermario">Escalar rápido, lanzar cacahuetes</string>
+
+    <!-- Donkey Kong -->
+    <string name="name_donkeykong_supermario">Donkey Kong</string>
+    <string name="description_donkeykong_supermario">El poderoso líder de los Kongs, conocido por su fuerza y su amor por los plátanos.</string>
+    <string name="skills_donkeykong_supermario">Lanzar barriles, golpes aplastantes</string>
+
+    <!-- Luigi -->
+    <string name="name_luigi_supermario">Luigi</string>
+    <string name="description_luigi_supermario">El hermano tímido de Mario, pero valiente cuando se le necesita.</string>
+    <string name="skills_luigi_supermario">Saltar alto, usar la aspiradora contra fantasmas</string>
+
+    <!-- Mario -->
+    <string name="name_mario_supermario">Mario</string>
+    <string name="description_mario_supermario">El icónico héroe del Reino Champiñón, siempre listo para salvar el día.</string>
+    <string name="skills_mario_supermario">Saltar, lanzar bolas de fuego</string>
+
+    <!-- Princesa Daisy -->
+    <string name="name_daisy_supermario">Princesa Daisy</string>
+    <string name="description_daisy_supermario">La enérgica princesa de Sarasaland, conocida por su valentía y determinación.</string>
+    <string name="skills_daisy_supermario">Esquivar obstáculos, ser una líder nata</string>
+
+    <!-- Princesa Peach -->
+    <string name="name_peach_supermario">Princesa Peach</string>
+    <string name="description_peach_supermario">La dulce princesa del Reino Champiñón, aunque más fuerte de lo que parece.</string>
+    <string name="skills_peach_supermario">Flotar en el aire, usar ataques mágicos</string>
+
+    <!-- Rosalina -->
+    <string name="name_rosalina_supermario">Rosalina</string>
+    <string name="description_rosalina_supermario">Guardiana del cosmos y amiga de los Lumas, tranquila y sabia.</string>
+    <string name="skills_rosalina_supermario">Controlar las estrellas, habilidades cósmicas</string>
+
+    <!-- Toad -->
+    <string name="name_toad_supermario">Toad</string>
+    <string name="description_toad_supermario">Un leal habitante del Reino Champiñón, siempre dispuesto a ayudar.</string>
+    <string name="skills_toad_supermario">Correr rápido, cargar objetos pesados</string>
+
+    <!-- Waluigi -->
+    <string name="name_waluigi_supermario">Waluigi</string>
+    <string name="description_waluigi_supermario">El rival sarcástico de Luigi, un experto en trampas.</string>
+    <string name="skills_waluigi_supermario">Hacer trampas, excelente jugador de tenis</string>
+
+    <!-- Wario -->
+    <string name="name_wario_supermario">Wario</string>
+    <string name="description_wario_supermario">Un avaro rival de Mario, conocido por su fuerza bruta.</string>
+    <string name="skills_wario_supermario">Golpes poderosos, comer ajo para ganar fuerza</string>
+
+    <!-- Yoshi -->
+    <string name="name_yoshi_supermario">Yoshi</string>
+    <string name="description_yoshi_supermario">El fiel amigo dinosaurio de Mario, siempre dispuesto a ayudar.</string>
+    <string name="skills_yoshi_supermario">Lanzar huevos, usar su lengua para atrapar objetos</string>
+
+</resources>

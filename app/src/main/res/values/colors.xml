@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colores para Tema Claro-->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mario_red">#E62310</color>
+    <color name="mario_blue">#009BD9</color>
+    <color name="mario_yellow">#FCCF00</color>
+    <color name="mario_green">#44AF35</color>
+</resources>

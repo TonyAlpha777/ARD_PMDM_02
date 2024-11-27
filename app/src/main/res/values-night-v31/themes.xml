@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.PMDMTarea2" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- Colores principales de la app Tema Oscuro-->
+        <item name="colorPrimary">@color/mario_red</item>
+        <item name="colorAccent">@color/mario_blue</item>
+
+        <!-- Tipo de fuente para los textos -->
+        <item name="android:fontFamily">@font/mario</item><!-- Fuente -->
+        <!-- Configuración del SplashScreen para el tema claro -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/icon</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/mario_green</item>
+        <item name="android:windowSplashScreenBackground">@color/mario_yellow</item>
+    </style>
+    <!-- Estilo para las fuentes del Navigation Drawer -->
+    <style name="NavigationDrawerItemStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/mario</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Theme.PMDMTarea2" parent="Base.Theme.PMDMTarea2" />
+</resources>

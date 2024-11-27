@@ -1,0 +1,52 @@
+<!-- Vista que mostrará la imagen del personaje con su nombre, una breve descripción del mismo y sus habilidades-->
+<!-- Definimos la distribución de la vista -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Elemento que mostrará la imagen del personaje -->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher_background">
+
+    </ImageView>
+
+    <!-- Elemento que mostrará el nombre del personaje-->
+    <TextView
+        android:id="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/character_name"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <!-- Elemento que mostrará una breve descripción del personaje -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/character_description"
+        android:textSize="16dp">
+    </TextView>
+
+    <!-- Elemento que mostrará las habilidades del personaje -->
+    <TextView
+        android:id="@+id/skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/character_ability"
+        android:textSize="14dp"
+        android:layout_margin="30dp">
+    </TextView>
+
+</LinearLayout>

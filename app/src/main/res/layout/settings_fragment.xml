@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+<TextView
+    android:id="@+id/languageTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/language_textView"
+    android:textSize="24dp"/>
+   <RadioGroup
+       android:id="@+id/languageRadioGroup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_margin="10dp">
+       <!-- Botón radio para inglés -->
+       <RadioButton
+           android:id="@+id/radioButtonEnglish"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/english_radioButton"
+           android:textSize="18dp"/>
+
+       <!-- Botón radio para español -->
+       <RadioButton
+           android:id="@+id/radioButtonSpanish"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:checked="true"
+           android:text="@string/spanish_radioButton"
+           android:textSize="18dp"/>
+
+   </RadioGroup>
+</LinearLayout>

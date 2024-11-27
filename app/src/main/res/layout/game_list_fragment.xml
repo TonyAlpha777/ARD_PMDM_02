@@ -1,0 +1,13 @@
+<!-- Definición de la distribución de la vista -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 3º Añadir RecyclerView a la vista xml -->
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/games_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="?attr/actionBarSize" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

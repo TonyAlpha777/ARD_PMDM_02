@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/gameListFragment">
+    <fragment
+        android:id="@+id/gameListFragment"
+        android:name="com.example.pmdmtarea2.GameListFragment"
+        android:label="GameListFragment" >
+        <action
+            android:id="@+id/action_gameListFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment" />
+        <action
+            android:id="@+id/action_gameListFragment_to_settingsFragment2"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_gameListFragment_to_idiomaFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameDetailFragment"
+        android:name="com.example.pmdmtarea2.GameDetailFragment"
+        android:label="Main Fragment" />
+
+    <!-- Fragment de Ajustes -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pmdmtarea2.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_settingsFragment_to_gameListFragment2"
+            app:destination="@id/gameListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.pmdmtarea2.SettingsFragment"
+        android:label="IdiomaFragment" >
+        <action
+            android:id="@+id/action_idiomaFragment_to_gameListFragment"
+            app:destination="@id/gameListFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colores para Tema Oscuro-->
+<resources>
+    <color name="black">#898787</color>
+    <color name="white">#FF5722</color>
+    <color name="mario_red">#AE5257</color>
+    <color name="mario_blue">#1B797B</color>
+    <color name="mario_yellow">#F4AC74</color>
+    <color name="mario_green">#28C88B</color>
+</resources>

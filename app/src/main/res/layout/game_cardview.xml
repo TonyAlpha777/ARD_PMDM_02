@@ -1,0 +1,49 @@
+<!-- Implementación de la vista del cardView -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="game"
+            type="com.example.pmdmtarea2.GameData" />
+    </data>
+    <!-- Definición del cardView, tamaño de la tarjeta-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <!-- Distribución de los elementos dentro del cardView -->
+        <!-- Definimos la distribución de los elementos del cardView-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <!-- Elemento que contendrá una imagen del personaje -->
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_launcher_background" />
+
+
+            <!-- Dentro del LinearLayout definimos la distribución de otros elementos -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Elemento que contendrá el nombre del personaje -->
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_name"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
